@@ -3,7 +3,7 @@
 	"SwitchTopology": "2530/2-Wire 64x1 Mux",
 	"SwitchInputTrigger_TTL0": 2,
 	"SwitchScanAdvancedOutput_TTL1": 3,
-	"SwitchScanList": "ch0:4->com0;",	
+	"SwitchScanList": "ch0:3->com0;",	
 	
 	"DMMResourceName": "DMM",
 	"DMMFunction_DCVolts": 0,
@@ -17,13 +17,13 @@
 	"DMMMeasurementCompleteTrigger_TTL0": 2,
 	"DMMMeasurementCompleteTriggerSlope_RisingEdge": 0,
 	"DMMApertureTimeUnits_Seconds": 0,
-	"DMMApertureTime": 0.1,
+	"DMMApertureTime": 0.033333,
 	"DMMNumberOfAverages": 1,
 	"DMMAutoZero_Off": 2,
 	"DMMADCCalibration_Off": 0,
-	"DMMSettleTime": 0.0,
+	"DMMSettleTime": 0.0001,
 	"DMMControlAction_Commit": 0,
 
-    "ApplicationLoopCount": 200,	
-	"ApplicationNumberOfBatteryCells": 5
+    "ApplicationLoopCount": 128,	
+	"ApplicationNumberOfBatteryCells": 4
 }
